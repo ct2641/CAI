@@ -1,1 +1,1 @@
-Staring.
+Starting.
