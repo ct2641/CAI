@@ -1,0 +1,25 @@
+//From email
+
+Random Variables
+F,S1,S2,S3,S4
+
+Objective
+H(S1)
+
+Dependency
+S1,S2,S3,S4:F
+F:S2,S3,S4
+F:S1,S3,S4
+F:S1,S2,S4
+F:S1,S2,S3
+
+Constant Bounds
+H(S1)-H(S2)=0
+H(S1)-H(S3)=0
+H(S1)-H(S4)=0
+H(S2)-H(S3)=0
+H(S2)-H(S4)=0
+H(S3)-H(S4)=0
+H(F)=1
+
+end

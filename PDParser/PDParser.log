@@ -1,0 +1,8 @@
+﻿  parse_tester.cpp
+  PDparser.cpp
+d:\dropbox\work\cpp_projects\scitl_cpp\cai\release\pdparser\pdparser.cpp(1169): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  utilities.cpp
+d:\dropbox\work\cpp_projects\scitl_cpp\cai\release\pdparser\utilities.cpp(276): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\dropbox\work\cpp_projects\scitl_cpp\cai\release\pdparser\utilities.cpp(323): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  PDParser.vcxproj -> D:\Dropbox\work\CPP_Projects\SCITL_CPP\CAI\Release\PDParser\PDParser.exe

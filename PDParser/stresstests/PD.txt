@@ -1,0 +1,39 @@
+// Configuration file for the (2,2) caching problem.
+Random variables:
+W1, W2, Z1, Z2, X11, X12, X21,X22
+
+Additional LP variables:
+R, M
+
+Objective:
+R + M
+
+Dependency:    
+Z1,Z2: W1, W2    
+X11,X12,X21,X22: W1, W2    
+W1: Z1, X11
+W1: Z2, X11    
+W1: Z1, X12
+W2: Z2, X12   
+W2: Z1, X21    
+W1: Z2, X21   
+W2: Z1, X22    
+W2: Z2, X22
+
+Conditional independence:
+W1;W2
+
+Constant bounds:   
+H(W1) = 1    
+H(X11) -R <= 0
+H(X21)-R <= 0
+H(Z1)-M <= 0
+
+
+Symmetry:
+W1, W2, Z1, Z2, X11, X12, X21, X22
+W2, W1, Z1, Z2, X22, X21, X12, X11
+W1, W2, Z2, Z1, X11, X21, X12, X22
+W2, W1, Z2, Z1, X22, X12, X21, X11
+
+end
