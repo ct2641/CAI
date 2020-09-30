@@ -5,49 +5,62 @@
 # https://github.com/ct2641/CAI/releases/tag/0.1
 # October, 2019
 # 
+
+
+
+
+
+#### HERE
+# You might need to change this line:
+CPLEXDIR = /opt/ibm/ILOG/CPLEX_Studio129/cplex
+# CPLEXDIR = /home/grads/r/ruida/ibm/ILOG/CPLEX_Studio1210/cplex
+
+
+
+
+
+
 CC = g++
 LINKER = g++
-CPLEXDIR = /opt/ibm/ILOG/CPLEX_Studio129/cplex
-INCLUDE = $(CPLEXDIR)/include
-LIBDIR = $(CPLEXDIR)/lib/x86-64_linux/static_pic/
-CFLAGS = -Wall -Wextra -I $(INCLUDE)
-LIB = cplex
-LFLAGS = -L $(LIBDIR) -l$(LIB) -ldl -lpthread
+CAI_TOOLSDIR = ../CAI_Tools
+
+INCLUDE_CAI_TOOLS = $(CAI_TOOLSDIR)/include
+INCLUDE_CPLEX = $(CPLEXDIR)/include
+INCLUDE_LOCAL = include
+
+LIBDIR_CAI_TOOLS = $(CAI_TOOLSDIR)/lib
+LIBDIR_CPLEX = $(CPLEXDIR)/lib/x86-64_linux/static_pic/
+
+LIB_CAI_TOOLS = cai
+LIB_CPLEX = cplex
+
+ARCHIVE = $(LIBDIR_CAI_TOOLS)/lib$(LIB_CAI_TOOLS).a
+
+CFLAGS = -std=c++11 -Wall -Wextra -I$(INCLUDE_CAI_TOOLS) -I$(INCLUDE_CPLEX) -I$(INCLUDE_LOCAL)
+LFLAGS = -L$(LIBDIR_CAI_TOOLS) -L$(LIBDIR_CPLEX) -l$(LIB_CAI_TOOLS) -l$(LIB_CPLEX) -ldl -lpthread
+
 EXECUTABLE = cplexcompute.out
-OBJDIR = ../obj_linux_osx
 
-LANGUAGE = cpp
+OBJDIR = obj_linux_osx
+SRCDIR = src
 
-ERDIR = ..
-PARSERDIR = ../PDParser
-
-SRC = computes_Cplex.$(LANGUAGE)           \
-	  transcribe2Cplex_tester.$(LANGUAGE)  \
-	  transcribe2Cplex.$(LANGUAGE)         \
-	  utilities_Cplex.$(LANGUAGE)          \
-	  $(ERDIR)/ERfromPD.$(LANGUAGE)        \
-	  $(PARSERDIR)/utilities.$(LANGUAGE)   \
-	  $(PARSERDIR)/PDparser.$(LANGUAGE)
-
-OBJECTS = $(patsubst %.$(LANGUAGE),$(OBJDIR)/%.o,$(notdir $(SRC)))
-
-
-define COMPILE_OBJECT
-$(OBJDIR)/$(basename $(notdir $(1))).o : $(1) | $(OBJDIR)
-	$(CC) $(CFLAGS) -o $(OBJDIR)/$(basename $(notdir $(1))).o -c $(1)
-endef
+OBJECTS = $(OBJDIR)/transcribe2Cplex.o        \
+	      $(OBJDIR)/utilities_Cplex.o         \
+	      $(OBJDIR)/computes_Cplex_tester.o \
+	      $(OBJDIR)/computes_Cplex.o
 
 
 all: $(EXECUTABLE)
 
-$(EXECUTABLE): $(OBJECTS)
-	$(CC) -o $@ $^ $(LFLAGS)
+$(EXECUTABLE): $(OBJECTS) $(ARCHIVE)
+	$(LINKER) -o $@ $(OBJECTS) $(LFLAGS)
 
-$(foreach src, $(SRC), $(eval $(call COMPILE_OBJECT,$(src))))
+$(OBJDIR)/%.o: $(SRCDIR)/%.cpp | $(OBJDIR)
+	$(CC) $(CFLAGS) -o $@ -c $<
 
 $(OBJDIR):
 	mkdir -p $(OBJDIR)
 
 .PHONY: clean
 clean:
-	rm -f $(EXECUTABLE) $(OBJECTS) 
+	rm -rf $(EXECUTABLE) $(OBJECTS) $(OBJDIR)

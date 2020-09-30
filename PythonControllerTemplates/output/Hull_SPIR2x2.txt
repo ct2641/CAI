@@ -1,0 +1,12 @@
+Check_Equivalence() succeeded
+Total number of elements before reduction: 16384
+Total number of elements after reduction: 1488
+Total number of constraints given to Cplex: 81069
+New point (1.000000, 1.000000).
+New point (1.000001, 1.000000).
+
+
+List of found points on the hull:
+(1.000000, 1.000000).
+(1.000001, 1.000000).
+End of list of found points.

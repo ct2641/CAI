@@ -1,0 +1,56 @@
+Check_Equivalence() succeeded
+Total number of elements before reduction: 1024
+Total number of elements after reduction: 197
+Total number of constraints given to Cplex: 3885
+******************************************************************
+LP dual value 43.000000 
+Proved 1-th inequality: 6N >= 7.
+001-th inequality: weight = 1.000000     -H(A1,B2,B4)     H(A1,B4)     H(A3,B4)    -H(B4)>=0
+002-th inequality: weight = 2.000000      H(B1)    -H(A4,B4)     H(B4)>=0
+003-th inequality: weight = 2.000000     -H(A3,A4,B4)    -H(S,B1)     H(A4,B4)     H(S,B1,B2)>=0
+004-th inequality: weight = 1.000000      H(A1,B2,B4)    -H(S,A1,B2,B4)     H(S,B2,B4)    -H(B2,B4)>=0
+005-th inequality: weight = 2.000000     -H(A4,B3)     H(B1)     H(B3)>=0
+006-th inequality: weight = 2.000000      H(B3)     H(B2)    -H(A3,B3)>=0
+007-th inequality: weight = 2.000000      H(A3,A4,B3)    -H(S,B1,B2)>=0
+008-th inequality: weight = 2.000000      H(A2,B3)    -H(B3)    -H(S,A2,B3)     H(S,B3)>=0
+009-th inequality: weight = 2.000000      H(A4,B3)     H(A3,B3)    -H(A3,A4,B3)    -H(S,B3)>=0
+010-th inequality: weight = 1.000000      H(A3,B4)    -H(A3,B2,B4)     H(B2,B4)    -H(B4)>=0
+011-th inequality: weight = 1.000000      H(A3,B2,B4)    -H(S,B2,B4)>=0
+012-th inequality: weight = 1.000000     -H(S,A1,B4)     H(S,A1,B2,B4)>=0
+013-th inequality: weight = 2.000000      H(A3,A4,B4)    -H(S,A3,B4)>=0
+014-th inequality: weight = 2.000000     -H(B1)     H(S,B1)     H(A4,B1)    -H(S,A4,B1)>=0
+015-th inequality: weight = 7.000000      H(S)    -1.0*>=0
+016-th inequality: weight = 1.000000     -H(S)     H(S,A1,B4)    -H(A1,B4)>=0
+017-th inequality: weight = 2.000000     -H(S)    -H(A3,B4)     H(S,A3,B4)>=0
+018-th inequality: weight = 2.000000     -H(S)    -H(A4,B1)     H(S,A4,B1)>=0
+019-th inequality: weight = 2.000000     -H(S)    -H(A2,B3)     H(S,A2,B3)>=0
+020-th inequality: weight = 2.000000     -H(B3)       N>=0
+021-th inequality: weight = 2.000000     -H(B1)       N>=0
+022-th inequality: weight = 2.000000     -H(B2)       N>=0
+******************************************************************
+******************************************************************
+MIP dual value 43.000000 
+Proved 1-th inequality using integer values: 6N >= 7.
+001-th inequality: weight = 1.000000     -H(A1,B2,B4)     H(A1,B4)     H(A3,B4)    -H(B4)>=0
+002-th inequality: weight = 2.000000      H(B1)    -H(A4,B4)     H(B4)>=0
+003-th inequality: weight = 2.000000     -H(A3,A4,B4)    -H(S,B1)     H(A4,B4)     H(S,B1,B2)>=0
+004-th inequality: weight = 1.000000      H(A1,B2,B4)    -H(S,A1,B2,B4)     H(S,B2,B4)    -H(B2,B4)>=0
+005-th inequality: weight = 2.000000     -H(A4,B3)     H(B1)     H(B3)>=0
+006-th inequality: weight = 2.000000      H(B3)     H(B2)    -H(A3,B3)>=0
+007-th inequality: weight = 2.000000      H(A3,A4,B3)    -H(S,B1,B2)>=0
+008-th inequality: weight = 2.000000      H(A2,B3)    -H(B3)    -H(S,A2,B3)     H(S,B3)>=0
+009-th inequality: weight = 2.000000      H(A4,B3)     H(A3,B3)    -H(A3,A4,B3)    -H(S,B3)>=0
+010-th inequality: weight = 1.000000      H(A3,B4)    -H(A3,B2,B4)     H(B2,B4)    -H(B4)>=0
+011-th inequality: weight = 1.000000      H(A3,B2,B4)    -H(S,B2,B4)>=0
+012-th inequality: weight = 1.000000     -H(S,A1,B4)     H(S,A1,B2,B4)>=0
+013-th inequality: weight = 2.000000      H(A3,A4,B4)    -H(S,A3,B4)>=0
+014-th inequality: weight = 2.000000     -H(B1)     H(S,B1)     H(A4,B1)    -H(S,A4,B1)>=0
+015-th inequality: weight = 7.000000      H(S)    -1.0*>=0
+016-th inequality: weight = 2.000000     -H(S)    -H(A3,B4)     H(S,A3,B4)>=0
+017-th inequality: weight = 2.000000     -H(S)    -H(A4,B1)     H(S,A4,B1)>=0
+018-th inequality: weight = 2.000000     -H(S)    -H(A2,B3)     H(S,A2,B3)>=0
+019-th inequality: weight = 1.000000     -H(S)     H(S,A1,B4)    -H(A1,B4)>=0
+020-th inequality: weight = 2.000000     -H(B2)       N>=0
+021-th inequality: weight = 2.000000     -H(B1)       N>=0
+022-th inequality: weight = 2.000000     -H(B3)       N>=0
+******************************************************************

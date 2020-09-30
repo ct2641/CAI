@@ -1,0 +1,189 @@
+PD
+{
+    "RV": [
+        "S",
+        "Z",
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "B3"
+    ],
+    "AL": [
+        "N"
+    ],
+    "O": "N",
+    "D": [
+        {
+            "given": [
+                "S",
+                "Z"
+            ],
+            "dependent": [
+                "A1"
+            ]
+        },
+        {
+            "given": [
+                "S",
+                "Z"
+            ],
+            "dependent": [
+                "A2"
+            ]
+        },
+        {
+            "given": [
+                "S",
+                "Z"
+            ],
+            "dependent": [
+                "A3"
+            ]
+        },
+        {
+            "given": [
+                "S",
+                "Z"
+            ],
+            "dependent": [
+                "B1"
+            ]
+        },
+        {
+            "given": [
+                "S",
+                "Z"
+            ],
+            "dependent": [
+                "B2"
+            ]
+        },
+        {
+            "given": [
+                "S",
+                "Z"
+            ],
+            "dependent": [
+                "B3"
+            ]
+        },
+        {
+            "given": [
+                "A1",
+                "B1"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A2",
+                "B1"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A2",
+                "B2"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A3",
+                "B2"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A3",
+                "B3"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A1",
+                "B1"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A2",
+                "B1"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A2",
+                "B2"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A3",
+                "B2"
+            ],
+            "dependent": [
+                "S"
+            ]
+        },
+        {
+            "given": [
+                "A3",
+                "B3"
+            ],
+            "dependent": [
+                "S"
+            ]
+        }
+    ],
+    "I": [
+        {
+            "given": [],
+            "independent": [
+                "S",
+                "Z"
+            ]
+        }
+    ],
+    "BC": [
+        "H(S) = 1",
+        "H(S|A1,B2) - H(S) = 0",
+        "H(S|A1,B3) - H(S) = 0",
+        "H(S|A2,B3) - H(S) = 0",
+        "H(S|A3,B1) - H(S) = 0",
+        "H(A1) - N <= 0",
+        "H(A2) - N <= 0",
+        "H(A3) - N <= 0",
+        "H(B1) - N <= 0",
+        "H(B2) - N <= 0",
+        "H(B3) - N <= 0"
+    ],
+    "BP": [
+        "5N >= 6"
+    ],
+    "S": []
+}

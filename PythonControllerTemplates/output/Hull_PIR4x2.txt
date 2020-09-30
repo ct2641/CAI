@@ -1,0 +1,33 @@
+Check_Equivalence() succeeded
+Total number of elements before reduction: 8388608
+Total number of elements after reduction: 31321
+1048576 constraints.
+2097152 constraints.
+3145728 constraints.
+4194304 constraints.
+5242880 constraints.
+6291456 constraints.
+7340032 constraints.
+8388608 constraints.
+9437184 constraints.
+10485760 constraints.
+11534336 constraints.
+12582912 constraints.
+13631488 constraints.
+14680064 constraints.
+15728640 constraints.
+16777216 constraints.
+17825792 constraints.
+18874368 constraints.
+19922944 constraints.
+20971520 constraints.
+22020096 constraints.
+23068672 constraints.
+24117248 constraints.
+25165824 constraints.
+26214400 constraints.
+27262976 constraints.
+28311552 constraints.
+29360128 constraints.
+Total number of constraints given to Cplex: 29541898
+New point (0.500000, 0.500000).

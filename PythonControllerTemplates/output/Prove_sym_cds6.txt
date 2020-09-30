@@ -1,0 +1,213 @@
+Check_Equivalence() succeeded
+Total number of elements before reduction: 16384
+Total number of elements after reduction: 4851
+Total number of constraints given to Cplex: 203492
+******************************************************************
+LP dual value 71.000000 
+Proved 1-th inequality: 10N >= 11.
+001-th inequality: weight = 1.000000     -H(A1)    -H(A1,B3,B6)     H(A1,B3)     H(A1,B6)>=0
+002-th inequality: weight = 1.000000      H(A6)     H(B6)    -H(A6,B6)>=0
+003-th inequality: weight = 1.000000     -H(S,A6)     H(S,A4,A6)    -H(A4,A6,B6)     H(A6,B6)>=0
+004-th inequality: weight = 1.000000      H(A6)     H(B5)    -H(A6,B5)>=0
+005-th inequality: weight = 1.000000      H(A5)     H(B5)    -H(A5,B5)>=0
+006-th inequality: weight = 1.000000     -H(S,A5,A6)     H(A5,A6,B5)>=0
+007-th inequality: weight = 1.000000     -H(A2)     H(S,A2)     H(A2,B5)    -H(S,A2,B5)>=0
+008-th inequality: weight = 1.000000      H(A5)     H(B4)    -H(A5,B4)>=0
+009-th inequality: weight = 1.000000      H(A4)     H(B4)    -H(A4,B4)>=0
+010-th inequality: weight = 1.000000     -H(S,A4,A5)     H(A4,A5,B4)>=0
+011-th inequality: weight = 1.000000     -H(A3)     H(S,A3)     H(A3,B4)    -H(S,A3,B4)>=0
+012-th inequality: weight = 1.000000     -H(S,A3)     H(A3,B2)     H(A3,B3)    -H(A3,B2,B3)>=0
+013-th inequality: weight = 1.000000      H(A1,B3,B6)    -H(A1,B6)     H(A1,A4,B6)    -H(A1,A4,B3,B6)>=0
+014-th inequality: weight = 1.000000      H(A3)     H(B3)    -H(A3,B3)>=0
+015-th inequality: weight = 1.000000     -H(S,B2)     H(S,A1,B2)     H(S,B2,B3)    -H(S,A1,B2,B3)>=0
+016-th inequality: weight = 1.000000      H(S,A1,B3,B6)    -H(S,A1,B6)>=0
+017-th inequality: weight = 1.000000     -H(S,A2)     H(A2,B1)     H(A2,B2)    -H(A2,B1,B2)>=0
+018-th inequality: weight = 1.000000      H(A3)     H(B2)    -H(A3,B2)>=0
+019-th inequality: weight = 1.000000      H(A2)     H(B2)    -H(A2,B2)>=0
+020-th inequality: weight = 1.000000     -H(S,B1)     H(A1,B1)     H(S,B1,B2)    -H(A1,B1,B2)>=0
+021-th inequality: weight = 1.000000     -H(S,A1,B3)     H(S,A1,B2,B3)>=0
+022-th inequality: weight = 1.000000     -H(A5)     H(S,A5)     H(A5,B2)    -H(S,A5,B2)>=0
+023-th inequality: weight = 1.000000      H(A2)     H(B1)    -H(A2,B1)>=0
+024-th inequality: weight = 1.000000      H(A1)     H(B1)    -H(A1,B1)>=0
+025-th inequality: weight = 1.000000     -H(S,A1,B2)     H(A1,B1,B2)>=0
+026-th inequality: weight = 1.000000     -H(A6)     H(S,A6)     H(A6,B1)    -H(S,A6,B1)>=0
+027-th inequality: weight = 1.000000     -H(S,B5)     H(A5,B5)     H(A6,B5)    -H(A5,A6,B5)>=0
+028-th inequality: weight = 1.000000     -H(S,A5)     H(S,A4,A5)     H(S,A5,A6)    -H(S,A4,A5,A6)>=0
+029-th inequality: weight = 1.000000      H(A4,A6,B6)    -H(S,A4,B6)>=0
+030-th inequality: weight = 1.000000     -H(B1)     H(S,B1)     H(A6,B1)    -H(S,A6,B1)>=0
+031-th inequality: weight = 1.000000     -H(S,B4)     H(A4,B4)     H(A5,B4)    -H(A4,A5,B4)>=0
+032-th inequality: weight = 1.000000     -H(S,A4,A6)     H(S,A4,A5,A6)>=0
+033-th inequality: weight = 1.000000     -H(B2)     H(S,B2)     H(A5,B2)    -H(S,A5,B2)>=0
+034-th inequality: weight = 1.000000     -H(B6)     H(A1,B6)     H(A4,B6)    -H(A1,A4,B6)>=0
+035-th inequality: weight = 1.000000     -H(S,A1,B3,B6)     H(A1,A4,B3,B6)>=0
+036-th inequality: weight = 1.000000     -H(S,B2,B3)     H(A3,B2,B3)>=0
+037-th inequality: weight = 1.000000     -H(B4)     H(S,B4)     H(A3,B4)    -H(S,A3,B4)>=0
+038-th inequality: weight = 1.000000     -H(S,B1,B2)     H(A2,B1,B2)>=0
+039-th inequality: weight = 1.000000     -H(B5)     H(S,B5)     H(A2,B5)    -H(S,A2,B5)>=0
+040-th inequality: weight = 11.000000      H(S)    -1.0*>=0
+041-th inequality: weight = 1.000000     -H(S)    -H(A1,B3)     H(S,A1,B3)>=0
+042-th inequality: weight = 1.000000     -H(S)    -H(A4,B6)     H(S,A4,B6)>=0
+043-th inequality: weight = 2.000000     -H(S)    -H(A6,B1)     H(S,A6,B1)>=0
+044-th inequality: weight = 2.000000     -H(S)    -H(A5,B2)     H(S,A5,B2)>=0
+045-th inequality: weight = 2.000000     -H(S)    -H(A3,B4)     H(S,A3,B4)>=0
+046-th inequality: weight = 2.000000     -H(S)    -H(A2,B5)     H(S,A2,B5)>=0
+047-th inequality: weight = 1.000000     -H(S)    -H(A1,B6)     H(S,A1,B6)>=0
+048-th inequality: weight = 1.000000     -H(A2)       N>=0
+049-th inequality: weight = 1.000000     -H(A3)       N>=0
+050-th inequality: weight = 1.000000     -H(A4)       N>=0
+051-th inequality: weight = 1.000000     -H(A5)       N>=0
+052-th inequality: weight = 1.000000     -H(A6)       N>=0
+053-th inequality: weight = 1.000000     -H(B1)       N>=0
+054-th inequality: weight = 1.000000     -H(B2)       N>=0
+055-th inequality: weight = 1.000000     -H(B3)       N>=0
+056-th inequality: weight = 1.000000     -H(B4)       N>=0
+057-th inequality: weight = 1.000000     -H(B5)       N>=0
+******************************************************************
+******************************************************************
+MIP dual value 71.000000 
+Proved 1-th inequality using integer values: 10N >= 11.
+001-th inequality: weight = 1.000000     -H(A1)    -H(A1,B3,B6)     H(A1,B3)     H(A1,B6)>=0
+002-th inequality: weight = 1.000000      H(A6)     H(B6)    -H(A6,B6)>=0
+003-th inequality: weight = 1.000000     -H(S,A6)     H(S,A4,A6)    -H(A4,A6,B6)     H(A6,B6)>=0
+004-th inequality: weight = 1.000000      H(A6)     H(B5)    -H(A6,B5)>=0
+005-th inequality: weight = 1.000000      H(A5)     H(B5)    -H(A5,B5)>=0
+006-th inequality: weight = 1.000000     -H(S,A5,A6)     H(A5,A6,B5)>=0
+007-th inequality: weight = 1.000000     -H(A2)     H(S,A2)     H(A2,B5)    -H(S,A2,B5)>=0
+008-th inequality: weight = 1.000000     -H(S,A5)     H(S,A5,A6)     H(A5,B4)    -H(A5,A6,B4)>=0
+009-th inequality: weight = 1.000000      H(A5)     H(B4)    -H(A5,B4)>=0
+010-th inequality: weight = 1.000000      H(A4)     H(B4)    -H(A4,B4)>=0
+011-th inequality: weight = 1.000000     -H(S,A4,A6)     H(A4,A6,B4)>=0
+012-th inequality: weight = 1.000000     -H(A3)     H(S,A3)     H(A3,B4)    -H(S,A3,B4)>=0
+013-th inequality: weight = 1.000000     -H(S,A3)     H(A3,B2)     H(A3,B3)    -H(A3,B2,B3)>=0
+014-th inequality: weight = 1.000000      H(A1,B3,B6)    -H(A1,B6)     H(A1,A4,B6)    -H(A1,A4,B3,B6)>=0
+015-th inequality: weight = 1.000000      H(A3)     H(B3)    -H(A3,B3)>=0
+016-th inequality: weight = 1.000000     -H(S,B2)     H(S,A1,B2)     H(S,B2,B3)    -H(S,A1,B2,B3)>=0
+017-th inequality: weight = 1.000000      H(S,A1,B3,B6)    -H(S,A1,B6)>=0
+018-th inequality: weight = 1.000000      H(A3)     H(B2)    -H(A3,B2)>=0
+019-th inequality: weight = 1.000000      H(A2)     H(B2)    -H(A2,B2)>=0
+020-th inequality: weight = 1.000000     -H(S,A2)     H(S,A1,A2)     H(A2,B2)    -H(A1,A2,B2)>=0
+021-th inequality: weight = 1.000000     -H(S,A1,B3)     H(S,A1,B2,B3)>=0
+022-th inequality: weight = 1.000000     -H(A5)     H(S,A5)     H(A5,B2)    -H(S,A5,B2)>=0
+023-th inequality: weight = 1.000000      H(A2)     H(B1)    -H(A2,B1)>=0
+024-th inequality: weight = 1.000000      H(A1)     H(B1)    -H(A1,B1)>=0
+025-th inequality: weight = 1.000000     -H(S,A1,A2)     H(A1,A2,B1)>=0
+026-th inequality: weight = 1.000000     -H(A6)     H(S,A6)     H(A6,B1)    -H(S,A6,B1)>=0
+027-th inequality: weight = 1.000000     -H(S,B5)     H(A5,B5)     H(A6,B5)    -H(A5,A6,B5)>=0
+028-th inequality: weight = 1.000000     -H(S,B4)     H(A4,B4)     H(S,A6,B4)    -H(A4,A6,B4)>=0
+029-th inequality: weight = 1.000000      H(A4,A6,B6)    -H(S,A4,B6)>=0
+030-th inequality: weight = 1.000000     -H(B1)     H(S,B1)     H(A6,B1)    -H(S,A6,B1)>=0
+031-th inequality: weight = 1.000000     -H(S,A6,B4)     H(A5,A6,B4)>=0
+032-th inequality: weight = 1.000000     -H(B2)     H(S,B2)     H(A5,B2)    -H(S,A5,B2)>=0
+033-th inequality: weight = 1.000000     -H(B6)     H(A1,B6)     H(A4,B6)    -H(A1,A4,B6)>=0
+034-th inequality: weight = 1.000000     -H(S,A1,B3,B6)     H(A1,A4,B3,B6)>=0
+035-th inequality: weight = 1.000000     -H(S,B2,B3)     H(A3,B2,B3)>=0
+036-th inequality: weight = 1.000000     -H(B4)     H(S,B4)     H(A3,B4)    -H(S,A3,B4)>=0
+037-th inequality: weight = 1.000000     -H(S,B1)     H(A1,B1)     H(A2,B1)    -H(A1,A2,B1)>=0
+038-th inequality: weight = 1.000000     -H(S,A1,B2)     H(A1,A2,B2)>=0
+039-th inequality: weight = 1.000000     -H(B5)     H(S,B5)     H(A2,B5)    -H(S,A2,B5)>=0
+040-th inequality: weight = 11.000000      H(S)    -1.0*>=0
+041-th inequality: weight = 1.000000     -H(S)    -H(A1,B6)     H(S,A1,B6)>=0
+042-th inequality: weight = 1.000000     -H(S)    -H(A1,B3)     H(S,A1,B3)>=0
+043-th inequality: weight = 1.000000     -H(S)    -H(A4,B6)     H(S,A4,B6)>=0
+044-th inequality: weight = 2.000000     -H(S)    -H(A6,B1)     H(S,A6,B1)>=0
+045-th inequality: weight = 2.000000     -H(S)    -H(A5,B2)     H(S,A5,B2)>=0
+046-th inequality: weight = 2.000000     -H(S)    -H(A3,B4)     H(S,A3,B4)>=0
+047-th inequality: weight = 2.000000     -H(S)    -H(A2,B5)     H(S,A2,B5)>=0
+048-th inequality: weight = 1.000000     -H(A2)       N>=0
+049-th inequality: weight = 1.000000     -H(A3)       N>=0
+050-th inequality: weight = 1.000000     -H(A4)       N>=0
+051-th inequality: weight = 1.000000     -H(A5)       N>=0
+052-th inequality: weight = 1.000000     -H(A6)       N>=0
+053-th inequality: weight = 1.000000     -H(B1)       N>=0
+054-th inequality: weight = 1.000000     -H(B2)       N>=0
+055-th inequality: weight = 1.000000     -H(B3)       N>=0
+056-th inequality: weight = 1.000000     -H(B4)       N>=0
+057-th inequality: weight = 1.000000     -H(B5)       N>=0
+******************************************************************
+
+
+
+
+
+
+
+Check_Equivalence() succeeded
+Total number of elements before reduction: 16384
+Total number of elements after reduction: 2471
+Total number of constraints given to Cplex: 108652
+******************************************************************
+LP dual value 71.000000 
+Proved 1-th inequality: 10N >= 11.
+001-th inequality: weight = 1.000000     -H(A1,B3,B6)     H(A1,B6)    -H(B6)     H(A4,B6)>=0
+002-th inequality: weight = 2.000000      H(B1)    -H(A6,B6)     H(B6)>=0
+003-th inequality: weight = 2.000000     -H(S,B1)     H(A6,B6)    -H(A4,A6,B6)     H(S,B1,B3)>=0
+004-th inequality: weight = 1.000000     -H(S,A1,B3,B6)    -H(B3,B6)     H(S,B3,B6)     H(A1,B3,B6)>=0
+005-th inequality: weight = 2.000000     -H(A5,B4,B5)    -H(S,B2)     H(A5,B5)     H(A5,B4)>=0
+006-th inequality: weight = 2.000000     -H(A6,B5)     H(B1)     H(B5)>=0
+007-th inequality: weight = 2.000000      H(B2)     H(B5)    -H(A5,B5)>=0
+008-th inequality: weight = 2.000000      H(A6,B4,B5)    -H(S,A6,B4)>=0
+009-th inequality: weight = 2.000000     -H(B5)    -H(S,A2,B5)     H(S,B5)     H(A2,B5)>=0
+010-th inequality: weight = 2.000000      H(A6,B5)     H(S,B4,B5)    -H(S,B5)    -H(A6,B4,B5)>=0
+011-th inequality: weight = 2.000000      H(B2)     H(B4)    -H(A5,B4)>=0
+012-th inequality: weight = 2.000000      H(B3)     H(B4)    -H(A4,B4)>=0
+013-th inequality: weight = 2.000000     -H(S,B1,B3)     H(A4,A6,B4)>=0
+014-th inequality: weight = 2.000000     -H(B4)     H(S,B4)     H(A3,B4)    -H(S,A3,B4)>=0
+015-th inequality: weight = 2.000000     -H(S,B4)     H(A4,B4)     H(S,A6,B4)    -H(A4,A6,B4)>=0
+016-th inequality: weight = 1.000000      H(B3,B6)    -H(A4,B3,B6)    -H(B6)     H(A4,B6)>=0
+017-th inequality: weight = 1.000000     -H(S,B3,B6)     H(A4,B3,B6)>=0
+018-th inequality: weight = 1.000000      H(S,A1,B3,B6)    -H(S,A1,B6)>=0
+019-th inequality: weight = 2.000000     -H(S,B4,B5)     H(A5,B4,B5)>=0
+020-th inequality: weight = 2.000000     -H(B2)     H(S,B2)     H(A5,B2)    -H(S,A5,B2)>=0
+021-th inequality: weight = 2.000000     -H(S,A4,B6)     H(A4,A6,B6)>=0
+022-th inequality: weight = 2.000000     -H(B1)     H(S,B1)     H(A6,B1)    -H(S,A6,B1)>=0
+023-th inequality: weight = 11.000000      H(S)    -1.0*>=0
+024-th inequality: weight = 1.000000     -H(S)     H(S,A1,B6)    -H(A1,B6)>=0
+025-th inequality: weight = 2.000000     -H(S)     H(S,A4,B6)    -H(A4,B6)>=0
+026-th inequality: weight = 2.000000     -H(S)    -H(A6,B1)     H(S,A6,B1)>=0
+027-th inequality: weight = 2.000000     -H(S)    -H(A5,B2)     H(S,A5,B2)>=0
+028-th inequality: weight = 2.000000     -H(S)    -H(A3,B4)     H(S,A3,B4)>=0
+029-th inequality: weight = 2.000000     -H(S)     H(S,A2,B5)    -H(A2,B5)>=0
+030-th inequality: weight = 2.000000     -H(B3)       N>=0
+031-th inequality: weight = 2.000000     -H(B2)       N>=0
+032-th inequality: weight = 2.000000     -H(B1)       N>=0
+033-th inequality: weight = 2.000000     -H(B4)       N>=0
+034-th inequality: weight = 2.000000     -H(B5)       N>=0
+******************************************************************
+******************************************************************
+MIP dual value 71.000000 
+Proved 1-th inequality using integer values: 10N >= 11.
+001-th inequality: weight = 1.000000     -H(A1,B3,B6)     H(A1,B6)    -H(B6)     H(A4,B6)>=0
+002-th inequality: weight = 2.000000      H(B1)    -H(A6,B6)     H(B6)>=0
+003-th inequality: weight = 2.000000     -H(S,B1)     H(A6,B6)    -H(A4,A6,B6)     H(S,B1,B3)>=0
+004-th inequality: weight = 1.000000     -H(S,A1,B3,B6)    -H(B3,B6)     H(S,B3,B6)     H(A1,B3,B6)>=0
+005-th inequality: weight = 2.000000     -H(A5,B4,B5)    -H(S,B2)     H(A5,B5)     H(A5,B4)>=0
+006-th inequality: weight = 2.000000     -H(A6,B5)     H(B1)     H(B5)>=0
+007-th inequality: weight = 2.000000      H(B2)     H(B5)    -H(A5,B5)>=0
+008-th inequality: weight = 2.000000      H(A6,B4,B5)    -H(S,A6,B4)>=0
+009-th inequality: weight = 2.000000     -H(B5)    -H(S,A2,B5)     H(S,B5)     H(A2,B5)>=0
+010-th inequality: weight = 2.000000      H(A6,B5)     H(S,B4,B5)    -H(S,B5)    -H(A6,B4,B5)>=0
+011-th inequality: weight = 2.000000      H(B2)     H(B4)    -H(A5,B4)>=0
+012-th inequality: weight = 2.000000      H(B3)     H(B4)    -H(A4,B4)>=0
+013-th inequality: weight = 2.000000     -H(S,B1,B3)     H(A4,A6,B4)>=0
+014-th inequality: weight = 2.000000     -H(B4)     H(S,B4)     H(A3,B4)    -H(S,A3,B4)>=0
+015-th inequality: weight = 2.000000     -H(S,B4)     H(A4,B4)     H(S,A6,B4)    -H(A4,A6,B4)>=0
+016-th inequality: weight = 1.000000      H(B3,B6)    -H(A4,B3,B6)    -H(B6)     H(A4,B6)>=0
+017-th inequality: weight = 1.000000     -H(S,B3,B6)     H(A4,B3,B6)>=0
+018-th inequality: weight = 1.000000      H(S,A1,B3,B6)    -H(S,A1,B6)>=0
+019-th inequality: weight = 2.000000     -H(S,B4,B5)     H(A5,B4,B5)>=0
+020-th inequality: weight = 2.000000     -H(B2)     H(S,B2)     H(A5,B2)    -H(S,A5,B2)>=0
+021-th inequality: weight = 2.000000     -H(S,A4,B6)     H(A4,A6,B6)>=0
+022-th inequality: weight = 2.000000     -H(B1)     H(S,B1)     H(A6,B1)    -H(S,A6,B1)>=0
+023-th inequality: weight = 11.000000      H(S)    -1.0*>=0
+024-th inequality: weight = 2.000000     -H(S)     H(S,A4,B6)    -H(A4,B6)>=0
+025-th inequality: weight = 2.000000     -H(S)    -H(A6,B1)     H(S,A6,B1)>=0
+026-th inequality: weight = 2.000000     -H(S)    -H(A5,B2)     H(S,A5,B2)>=0
+027-th inequality: weight = 2.000000     -H(S)    -H(A3,B4)     H(S,A3,B4)>=0
+028-th inequality: weight = 2.000000     -H(S)     H(S,A2,B5)    -H(A2,B5)>=0
+029-th inequality: weight = 1.000000     -H(S)     H(S,A1,B6)    -H(A1,B6)>=0
+030-th inequality: weight = 2.000000     -H(B5)       N>=0
+031-th inequality: weight = 2.000000     -H(B4)       N>=0
+032-th inequality: weight = 2.000000     -H(B1)       N>=0
+033-th inequality: weight = 2.000000     -H(B2)       N>=0
+034-th inequality: weight = 2.000000     -H(B3)       N>=0
+******************************************************************

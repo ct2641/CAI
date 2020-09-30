@@ -1,0 +1,26 @@
+# standard (4,3) erasure code situation
+
+PD
+{
+  "RV": ["F","S1","S2","S3","S4"],
+  "AL": [],
+  "O": "H(S1)",
+  "D": [
+    {"dependent":["S1","S2","S3","S4"],"given":["F"]},
+    {"dependent":["F"],"given":["S2","S3","S4"]},
+    {"dependent":["F"],"given":["S1","S3","S4"]},
+    {"dependent":["F"],"given":["S1","S2","S4"]},
+    {"dependent":["F"],"given":["S1","S2","S3"]} ],
+  "I": [],
+  "BC": [
+    "H(S1) - H(S2) = 0",
+    "H(S1) - H(S3) = 0",
+    "H(S1) - H(S4) = 0",
+    "H(S2) - H(S3) = 0",
+    "H(S2) - H(S4) = 0",
+    "H(S3) - H(S4) = 0",
+    "H(F) = 1" ],
+  "BP": [],
+  "S": []
+}
+

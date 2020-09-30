@@ -1,0 +1,32 @@
+# Configuration file for the (2,2) caching problem - Good file
+
+PD
+{
+  "RV": ["W1","W2","Z1","Z2","X11","X12","X21","X22"],
+  "AL": ["R","M"],
+  "O": "2R + 1.1M",
+  "D": [
+    {"dependent":["Z1","Z2"],"given":["W1","W2"]},
+    {"dependent":["X11","X12","X21","X22"],"given":["W1","W2"]},
+    {"dependent":["W1"],"given":["Z1","X11"]},
+    {"dependent":["W1"],"given":["Z2","X11"]},
+    {"dependent":["W1"],"given":["Z1","X12"]},
+    {"dependent":["W2"],"given":["Z2","X12"]},
+    {"dependent":["W2"],"given":["Z1","X21"]},
+    {"dependent":["W1"],"given":["Z2","X21"]},
+    {"dependent":["W2"],"given":["Z1","X22"]},
+    {"dependent":["W2"],"given":["Z2","X22"]} ],
+  "I": [{"given":[],"independent":["W1","W2"]}],
+  "BC": [
+    "H(W1) = 1",
+    "H(X11) - R <= 0",
+    "H(X21) - R <= 0",
+    "H(Z1) - M <= 0" ],
+  "BP": [],
+  "S": [
+    ["W1","W2","Z1","Z2","X11","X12","X21","X22"],
+    ["W2","W1","Z1","Z2","X22","X21","X12","X11"],
+    ["W1","W2","Z2","Z1","X11","X21","X12","X22"],
+    ["W2","W1","Z2","Z1","X22","X12","X21","X11"] ]
+}
+
